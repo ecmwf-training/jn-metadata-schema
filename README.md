@@ -8,7 +8,7 @@ For Copernicus notebooks, additional metadata applied to Jupyter notebooks for t
 
 | Metadata key | Description | Type | Default | Limits | Notes |
 |---|---|---|---|---|---|
-| tags:category | The overarching topic and programme under which the notebook falls | string | | | Choose one or more of the following, in quotes, separated by commas: 'meteorology', 'computing', 'machine-learning', 'destine', 'research-project' (**note that this refers to research projects, such as Horizon Europe projects, not notebooks developed in ECMWF research department**), 'c3s', 'cams', 'cems'. |
+| tags:category | The overarching topic and programme under which the notebook falls | string | | | Choose one or more of the following, in quotes, separated by commas: 'meteorology', 'computing', 'machine-learning', 'destine', 'research-project' (*note that this refers to research projects, such as Horizon Europe projects, not notebooks developed in ECMWF research department*), 'c3s', 'cams', 'cems'. |
 | tags:data_type | The high level data type | string | | | Choose one or more of the following, in quotes, separated by commas: 'observation', 'forecast', 'forecast-s2s', 'forecast-seasonal', 'reanalysis', 'projection' |
 | tags:data_product | The precise name of data products used in notebook | string or list of strings | | | For copernicus, use CDS/ADS API convention for product names. For core/DestinE... |
 
