@@ -13,3 +13,17 @@ For Copernicus notebooks, additional metadata applied to Jupyter notebooks for t
 | tags:data_product | The precise name of data products used in notebook | string or list of strings | | | For copernicus, use CDS/ADS API convention for product names. For core/DestinE... |
 
 ## Metadata at notebook cell level
+Copernicus notebooks shall include metadata tags for certain cells. These include the following tags:
+{
+    "tags": ["logo", "run", "objectives", "install", "api", "import", "request", "key-messages"]
+}
+| Metadata cell tag | Which cells to include tag |
+|---|---|
+| logo | Any cells including logos in the notebook, such as the logolines for C3S/CAMS at the top of each notebook |
+| run | Any cells including links or information about running the notebooks on platforms such as WEkEO, Binder, Colab, Kaggle, Deepnote, etc. |
+| objectives | Any cells discussing learning objectives. |
+| install | Any cells describing installation instructions of packages, such as cdsapi. |
+| api | Any cells describing the CDS API or API key. |
+| import | Any cells describing the import of libraries/packages. |
+| request | Any cells containing API requests, or describing API requests. |
+| key-messages | The cells at the end of the notebook summarising key take-home messages. |
