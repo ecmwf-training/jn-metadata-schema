@@ -1,5 +1,7 @@
-# jn-metadata-schema
-This repository provides details on the metadata convention used in Jupyter notebooks for training developed for ECMWF. Please see the [Jupyter notebook template](https://github.com/ecmwf-training/jupyter-template/blob/main/jupyter-notebook-template.ipynb) as an example of how this metadata is applied. If any metadata fields are irrelevant to the topic of the notebook, leave them blank.
+# Jupyter notebook metadata schema
+This repository provides details on the metadata convention used in Jupyter notebooks for training developed for ECMWF. Please see the [Jupyter notebook template](https://github.com/ecmwf-training/jupyter-template/blob/main/jupyter-notebook-template.ipynb) as an example of how this metadata is applied. 
+
+Please apply this metadata schema to all notebooks used for training at ECMWF. If any metadata fields are irrelevant to the topic of the notebook, leave them blank.
 
 ## Metadata at notebook level
 For notebook level metadata, the following table lists the metadata keys and their descriptions that shall be included in each notebook.
