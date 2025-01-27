@@ -3,10 +3,12 @@ This repository provides details on the metadata convention used in Jupyter note
 
 Please apply this metadata schema to all notebooks used for training at ECMWF. If any metadata fields are irrelevant to the topic of the notebook, leave them blank.
 
+For instructions on how to add metadata to Jupyter notebooks, both at the notebook level, and for individuals cells within notebooks, please refer to https://jupyterbook.org/en/stable/content/metadata.html.
+
 ## Metadata at notebook level
 For notebook level metadata, the following table lists the metadata keys and their descriptions that shall be included in each notebook.
 
-For Copernicus notebooks, additional metadata applied to Jupyter notebooks for the [WEkEO platform](https://www.wekeo.eu/) shall also be applied, with the exception of tags:orbit, tags:satellite, tags:sensor, tags:service. The WEkEO Jupyter notebook metadata schema is described here: https://gitlab.eumetsat.int/eumetlab/cross-cutting-tools/jn-metadata-schema.
+**For Copernicus notebooks, additional metadata applied to Jupyter notebooks for the [WEkEO platform](https://www.wekeo.eu/) shall also be applied, with the exception of tags:orbit, tags:satellite, tags:sensor, tags:service. The WEkEO Jupyter notebook metadata schema is described here: https://gitlab.eumetsat.int/eumetlab/cross-cutting-tools/jn-metadata-schema.**
 
 | Metadata key | Description | Type | Default | Limits | Notes |
 |---|---|---|---|---|---|
