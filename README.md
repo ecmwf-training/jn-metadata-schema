@@ -26,8 +26,9 @@ Copernicus notebooks shall include metadata tags for certain cells. These includ
 | logo | Any cells including logos in the notebook, such as the logolines for C3S/CAMS at the top of each notebook |
 | run | Any cells including links or information about running the notebooks on platforms such as WEkEO, Binder, Colab, Kaggle, Deepnote, etc. |
 | objectives | Any cells discussing learning objectives. |
-| install | Any cells describing installation instructions of packages, such as cdsapi. |
+| install | Any cells describing installation instructions of packages. |
 | api | Any cells describing the CDS API or API key. |
 | import | Any cells describing the import of libraries/packages. |
+| directory | Any cells specifying and/or creating data directories. |
 | request | Any cells containing API requests, or describing API requests. |
 | key-messages | The cells at the end of the notebook summarising key take-home messages. |
